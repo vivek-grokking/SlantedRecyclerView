@@ -35,24 +35,25 @@ public abstract class BaseCustomImageView extends ImageView {
         }
         Bitmap b = ((BitmapDrawable) drawable).getBitmap();
         Bitmap bitmap = b.copy(Bitmap.Config.ARGB_8888, true);
-        Bitmap croppedBitmap = getCroppedBitmap(bitmap, getWidth());
+        Bitmap croppedBitmap = getCroppedBitmap(bitmap, getHeight(), getWidth());
         canvas.drawBitmap(croppedBitmap, 0, 0, null);
     }
 
-    private Bitmap getCroppedBitmap(Bitmap bitmap, int radius) {
+    private Bitmap getCroppedBitmap(Bitmap bitmap, int h, int w) {
         Bitmap finalBitmap;
-        if (bitmap.getWidth() != radius || bitmap.getHeight() != radius)
-            finalBitmap = Bitmap.createScaledBitmap(bitmap, radius, radius, false);
+        if (bitmap.getWidth() != w || bitmap.getHeight() != h)
+            finalBitmap = Bitmap.createScaledBitmap(bitmap, w, h, false);
         else
             finalBitmap = bitmap;
 
         Bitmap output = Bitmap.createBitmap(finalBitmap.getWidth(), finalBitmap.getHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(output);
+        canvas.drawARGB(0, 0, 0, 0); // clean slate
 
-        Paint paint = new Paint();
         final Rect rect = new Rect(0, 0, finalBitmap.getWidth(), finalBitmap.getHeight());
         Path path = getPath(finalBitmap.getWidth(), finalBitmap.getHeight());
-        canvas.drawARGB(0, 0, 0, 0);
+
+        Paint paint = new Paint();
         paint.setColor(Color.parseColor("#BAB399"));
         canvas.drawPath(path, paint);
         paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
