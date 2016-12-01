@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.vader.slantedrecyclerview.model.Movie;
+import com.vader.slantedrecyclerview.model.ListItem;
 import com.vader.slantedrecyclerview.viewholders.BaseViewHolder;
-import com.vader.slantedrecyclerview.views.HeaderImageView;
 import com.vader.slantedrecyclerview.views.FooterImageView;
+import com.vader.slantedrecyclerview.views.HeaderImageView;
 import com.vader.slantedrecyclerview.views.ListItemImageView;
 
 import java.util.List;
@@ -25,14 +25,14 @@ import java.util.List;
 public class MoviesAdapter extends RecyclerView.Adapter<BaseViewHolder> {
 
     private static final String TAG = "MoviesAdapter";
-    private List<Movie> movies;
+    private List<ListItem> movies;
     private Context context;
 
     private final int HEADER = 0;
     private final int FOOTER = 1;
     private final int ITEM = 2;
 
-    public MoviesAdapter(List<Movie> movies, Context context) {
+    public MoviesAdapter(List<ListItem> movies, Context context) {
         this.movies = movies;
         this.context = context;
     }

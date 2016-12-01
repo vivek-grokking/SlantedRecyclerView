@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/imageview_height">
+    android:layout_height="@dimen/imageview_header_footer_height">
 
     <com.vader.slantedrecyclerview.views.HeaderImageView
         android:id="@+id/background"

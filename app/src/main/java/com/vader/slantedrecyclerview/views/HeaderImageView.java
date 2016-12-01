@@ -19,9 +19,9 @@ public class HeaderImageView extends BaseCustomImageView {
         Path path = new Path();
         path.moveTo(0, 0);
         path.lineTo(w, 0);
-        path.lineTo(w, h-200);
+        path.lineTo(w, h-150);
         path.lineTo(0, h);
-        path.lineTo(0, 200);
+        path.lineTo(0, 150);
         path.close();
         return path;
     }

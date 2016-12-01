@@ -17,11 +17,11 @@ public class ListItemImageView extends BaseCustomImageView {
     @Override
     protected Path getPath(int w, int h) {
         Path path = new Path();
-        path.moveTo(0, 200);
+        path.moveTo(0, 150);
         path.lineTo(w, 0);
-        path.lineTo(w, h-200);
+        path.lineTo(w, h-150);
         path.lineTo(0, h);
-        path.lineTo(0, 200);
+        path.lineTo(0, 150);
         path.close();
         return path;
     }

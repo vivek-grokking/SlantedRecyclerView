@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_marginBottom="50dp"
-    android:layout_height="@dimen/imageview_height">
+    android:layout_height="@dimen/imageview_header_footer_height">
 
     <com.vader.slantedrecyclerview.views.FooterImageView
         android:id="@+id/background"

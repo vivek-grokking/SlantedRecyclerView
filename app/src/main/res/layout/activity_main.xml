@@ -2,16 +2,19 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.vader.slantedrecyclerview.MainActivity">
 
-    <android.support.v7.widget.RecyclerView
+    <com.vader.slantedrecyclerview.parallax.ParallaxRecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/movies_recycle_view"
         android:background="@color/colorPrimary"
+        app:parallax_factor="6"
+        app:circular_parallax="true"
         tools:listitem="@layout/movie_list_item" />
 
 </RelativeLayout>
