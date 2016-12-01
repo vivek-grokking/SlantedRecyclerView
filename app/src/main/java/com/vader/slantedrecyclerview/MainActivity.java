@@ -37,6 +37,34 @@ public class MainActivity extends AppCompatActivity {
         movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
         movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
         movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+        movies.add(new ListItem("We Bought A Zoo", "http://vignette1.wikia.nocookie.net/howearlaskedsheena/images/0/01/We-bought-a-zoo-poster05web.jpg/revision/latest?cb=20131204051410"));
+        movies.add(new ListItem("Predestination", "http://www.tribute.ca/images/videos/predestination-12300-large.jpg"));
+        movies.add(new ListItem("Upstrean Color", "http://iris.theaureview.com/wp-content/uploads/2016/04/Upstream-Color.jpeg"));
+
         return movies;
     }
 

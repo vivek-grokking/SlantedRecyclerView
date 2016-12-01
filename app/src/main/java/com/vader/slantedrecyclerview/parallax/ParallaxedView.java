@@ -11,6 +11,10 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by vader on 1/12/16.
+ */
+
 public abstract class ParallaxedView {
 
     static public boolean isAPI11 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
